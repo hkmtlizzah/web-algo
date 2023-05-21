@@ -53,13 +53,18 @@ h2 {
     color: var(--neutral-600);
 }
 
-.btn-next { 
-    font-size: var(--text-paragraph);
-    margin-top: 2em;
-    padding: 10px 30px;
-    border-radius: 25px;
-    background-color: rgb(45, 144, 45);
-    color: var(--white-base);
-    text-decoration: none;
-    position: initial;
+/* Start : Pagination */
+.pagination {
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
+
+.btn-next {
+    background-color: green;
+    color: white;
+    border-radius: 15px;
+    padding: 8px 15px;
+}
+/* End : Pagination */

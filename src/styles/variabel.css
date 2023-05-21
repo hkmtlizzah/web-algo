@@ -5,33 +5,8 @@ h2 {
     margin-bottom: 10px;
 }
 
-.video-container {
-    text-align: center;
-    position: relative;
-    padding-bottom: 50%;
-    padding-top: 50px;
-    height: 0;
-    overflow: hidden;
-  }
-   
-  .video-container iframe, .video-container object, .video-container embed {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border-radius: 15px;
-  }
-
-.gambar {
-    text-align: center;
-    margin: 50px 0 50px 0;
-}
-
-.gambar > img {
-    width: 700px;
-    border: 2px solid var(--neutral-400);
-    border-radius: var(--rounded-xs);
+ol {
+    margin-bottom: 30px;
 }
 
 /* Start : Registration */
@@ -52,14 +27,33 @@ h2 {
     font-size: var(--text-paragraph);
     color: var(--neutral-600);
 }
-
-.btn-next { 
-    font-size: var(--text-paragraph);
-    margin-top: 2em;
-    padding: 10px 30px;
-    border-radius: 25px;
-    background-color: rgb(45, 144, 45);
-    color: var(--white-base);
-    text-decoration: none;
-    position: initial;
+iframe {
+    width: 1000px;
+    height: 800px;
+    border-radius: 15px;
+    position: center;
+    
 }
+
+/* Start : Pagination */
+.pagination {
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.btn-previous {
+    background-color: green;
+    color: white;
+    border-radius: var(--rounded-m);
+    padding: 8px 15px;
+}
+
+.btn-next {
+    background-color: green;
+    color: white;
+    border-radius: 15px;
+    padding: 8px 15px;
+}
+/* End : Pagination */
