@@ -1,0 +1,109 @@
+
+/* Start : Hero Section */
+#hero__section img {
+    width: 100%;
+    height: 89.5vh;
+    object-fit: cover;
+    z-index: 1;
+    top: 0;
+}
+
+#hero__section h1 {
+    font-size: var(--text-4xl);
+    font-weight: var(--text-semibold);
+    color: var(--text-white);
+}
+
+#hero__section p {
+    font-size: var(--text-paragraph);
+    margin-top: 30px;
+    color: var(--text-white);
+}
+
+.banner-img > img {
+    width: 500px;
+    height: 720px;
+    border-radius: 0 120px 0 120px;
+}
+
+.btn-mulai {
+    font-size: var(--text-paragraph);
+    margin-top: 2em;
+    padding: 10px 30px;
+    border-radius: 25px;
+    background-color: rgb(45, 144, 45);
+    color: var(--white-base);
+    text-decoration: none;
+}
+
+.btn-mulai:hover {
+    font-size: var(--text-paragraph);
+    margin-top: 2em;
+    padding: 10px 30px;
+    border-radius: 25px;
+    background-color: rgb(46, 88, 46);
+    color: var(--white-base);
+    text-decoration: none;
+}
+.hero-title {
+    color: #dffff5;
+    position: absolute;
+    top: 35%;
+    text-align: center;
+    width: 100%;
+    margin: 0.2em auto;
+    z-index: 2;
+    font-size: x-large;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.overlay {
+    position: absolute;
+    top: 10em;
+    left: 0;
+    min-height: 100vh;
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 20%, #000000 150%);
+    z-index: 10;
+}
+
+/* End : Hero Section */
+
+@media screen and (max-width: 768px) {
+
+    #hero__section h1 {
+        font-size: var(--text-l);
+        width: 50%s;
+    }
+
+    header {
+        margin-top: 40%;
+    }
+
+    .menu {
+        width: 90%;
+        margin: 30px auto;
+    }
+
+    .menu-item img {
+        display: block;
+        width: 60px;
+        margin: 0 auto;
+    }
+}
+
+/*  Start : footer  */
+
+footer {
+    background-color: rgb(45, 144, 45);
+    color: white;
+    padding: 20px;
+    margin-top: 10em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+footer > p {
+    margin: 0;
+}
+
+/*  End : footer  */

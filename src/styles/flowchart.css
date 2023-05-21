@@ -1,0 +1,76 @@
+h1 {
+    margin-bottom: 20px;
+}
+h2 {
+    margin-bottom: 10px;
+}
+
+.gambar {
+    text-align: center;
+    margin: 50px 0 50px 0;
+}
+
+.gambar > img {
+    width: 500px;
+    border: 2px solid var(--neutral-400);
+    border-radius: 15px;
+}
+
+#flowchart1 > img {
+    width: 100px;
+    border: 2px solid var(--neutral-400);
+    border-radius: 15px;
+}
+
+ol {
+    margin-bottom: 30px;
+}
+
+/* Start : Registration */
+.registration {
+    background-color: rgb(232, 252, 232);
+    padding: 2em;
+    border-radius: 15px;
+    margin-top: 8em;
+}
+
+.registration > h3 {
+    font-size: var(--text-heading-s);
+    font-weight: var(--text-semibold);
+    color: var(--neutral-900);
+}
+
+.registration > p {
+    font-size: var(--text-paragraph);
+    color: var(--neutral-600);
+}
+iframe {
+    width: 1000px;
+    height: 800px;
+    border-radius: 15px;
+    position: center;
+    
+}
+
+/* Start : Pagination */
+.pagination {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: var(--neutral-200);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.btn-previous {
+    border-radius: var(--rounded-m);
+    padding: 8px 15px;
+}
+
+.btn-next {
+    border-radius: var(--rounded-m);
+    padding: 8px 15px;
+}
+/* End : Pagination */
